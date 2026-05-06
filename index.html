@@ -2,15 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- Perbaikan: Menambahkan titik agar mencari favicon di folder yang sama -->
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SmartRoom — IoT Dashboard</title>
     <meta name="description" content="SmartRoom Dashboard — real-time monitoring of temperature, humidity, light intensity, and room light controls." />
+    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet" />
-    <script type="module" crossorigin src="/assets/index-Cqm5kEoM.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-eIfIPVwa.css">
+    
+    <!-- Perbaikan: Path script diubah menjadi relatif (./assets/...) -->
+    <script type="module" crossorigin src="./assets/index-Cqm5kEoM.js"></script>
+    
+    <!-- Perbaikan: Path CSS diubah menjadi relatif (./assets/...) -->
+    <link rel="stylesheet" crossorigin href="./assets/index-eIfIPVwa.css">
   </head>
   <body>
     <div id="root"></div>
